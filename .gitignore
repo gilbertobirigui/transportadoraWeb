@@ -1,0 +1,73 @@
+# Sistema macOS
+.DS_Store
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+*.env
+*.venv
+
+# Arquivos de compilação
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Configurações do IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Arquivos de banco de dados
+*.db
+
+# Arquivos de log
+*.log
+
+# Mídia
+media/
+
+# Static files
+staticfiles/
+
+# Node modules
+node_modules/
+
+# Arquivos de cobertura de teste
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Arquivos gerados por Jupyter
+.ipynb_checkpoints
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.backup
+*.swp
+*~
+
+# Excluir arquivos sensíveis
+secrets.json
+
+# Arquivos do sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# Outras exclusões
+*.tgz
+*.zip
+*.egg
+*.egg-info
+dist/
+build/
